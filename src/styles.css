@@ -523,51 +523,42 @@ h3 {
 }
 
 .person-card {
-  position: relative;
   display: grid;
-  grid-template-columns: minmax(360px, 0.9fr) minmax(0, 1fr);
-  gap: clamp(44px, 6vw, 78px);
+  grid-template-columns: minmax(260px, 40%) minmax(0, 60%);
+  gap: clamp(32px, 4vw, 48px);
   align-items: center;
   padding: clamp(30px, 4vw, 52px);
-  overflow: hidden;
 }
 
-.person-card::before {
-  position: absolute;
-  top: clamp(30px, 4vw, 52px);
-  left: clamp(30px, 4vw, 52px);
-  z-index: 0;
+.person-media {
   display: grid;
   place-items: center;
-  width: min(40vw, 500px);
-  aspect-ratio: 4 / 3;
-  border-radius: 18px;
-  color: rgba(38, 49, 46, 0.58);
-  content: "Photo";
-  background:
-    linear-gradient(135deg, rgba(217, 239, 216, 0.88), rgba(255, 216, 191, 0.78)),
-    #eef4ee;
-  font-family: "Segoe Print", "Bradley Hand ITC", cursive;
-  font-size: 0.78rem;
-  font-weight: 700;
-}
-
-.person-card img {
-  position: relative;
-  z-index: 1;
   width: 100%;
-  height: auto;
-  max-height: 560px;
-  padding: 12px;
-  border: 0;
+  min-width: 0;
+  min-height: clamp(260px, 28vw, 430px);
+  padding: clamp(12px, 2vw, 18px);
   border-radius: 22px;
-  object-fit: contain;
+  color: rgba(38, 49, 46, 0.58);
   background:
     linear-gradient(135deg, rgba(217, 239, 216, 0.88), rgba(255, 216, 191, 0.78)),
     #eef4ee;
 }
 
-.person-card > div {
+.person-media img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: clamp(300px, 34vw, 520px);
+  border: 10px solid var(--white);
+  border-radius: 18px;
+  object-fit: contain;
+  object-position: center;
+  background:
+    rgba(255, 255, 255, 0.44);
+}
+
+.person-copy {
+  min-width: 0;
   max-width: 780px;
   padding-block: 8px;
 }
@@ -837,17 +828,13 @@ h3 {
     transform: none;
   }
 
-  .person-card img {
-    width: 100%;
-    max-height: none;
-    aspect-ratio: auto;
+  .person-media {
+    min-height: auto;
   }
 
-  .person-card::before {
-    top: clamp(22px, 7vw, 30px);
-    left: clamp(22px, 7vw, 30px);
-    width: calc(100% - clamp(44px, 14vw, 60px));
-    aspect-ratio: 4 / 3;
+  .person-media img {
+    max-height: none;
+    aspect-ratio: auto;
   }
 
   .section-heading {

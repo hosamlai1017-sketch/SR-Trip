@@ -428,8 +428,10 @@ function learningCard(item, index) {
 function personCard(person) {
   return `
     <article class="person-card">
-      <img src="${assetUrl(person.image)}" alt="${person.name} placeholder" />
-      <div>
+      <div class="person-media">
+        <img src="${assetUrl(person.image)}" alt="${person.name} placeholder" />
+      </div>
+      <div class="person-copy">
         <h3>${person.name}</h3>
         <span>What this encounter taught me</span>
         <p>${person.reflection}</p>
