@@ -524,10 +524,15 @@ h3 {
 
 .person-card {
   display: grid;
-  grid-template-columns: minmax(260px, 40%) minmax(0, 60%);
-  gap: clamp(32px, 4vw, 48px);
-  align-items: start;
+  gap: clamp(18px, 3vw, 28px);
   padding: clamp(30px, 4vw, 52px);
+}
+
+.person-feature {
+  display: grid;
+  grid-template-columns: minmax(260px, 38%) minmax(0, 1fr);
+  gap: clamp(28px, 4vw, 48px);
+  align-items: start;
 }
 
 .person-media {
@@ -557,8 +562,6 @@ h3 {
 
 .person-copy {
   min-width: 0;
-  max-width: 780px;
-  padding-block: 8px;
 }
 
 .person-card h3 {
@@ -570,6 +573,15 @@ h3 {
   font-size: clamp(1rem, 1.25vw, 1.12rem);
   line-height: 1.72;
   white-space: pre-line;
+}
+
+.person-opening p {
+  margin-bottom: 0;
+}
+
+.person-reflection {
+  max-width: 1040px;
+  padding-top: clamp(4px, 1vw, 10px);
 }
 
 .classroom-layout {
@@ -818,6 +830,10 @@ h3 {
 
   .learning-card,
   .person-card {
+    grid-template-columns: 1fr;
+  }
+
+  .person-feature {
     grid-template-columns: 1fr;
   }
 
