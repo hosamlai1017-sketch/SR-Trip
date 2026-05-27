@@ -139,24 +139,23 @@ const people = [
     image: "images/jean-ooi.jpg", // Replace this image with Jean Ooi's photo.
     reflection: [
       "Jean Ooi is my RAD, and San Ramon was the first time I met her in person. Throughout the classroom experience, she was incredibly supportive to all of us.",
-      "During my 1:1 session with her in San Ramon, I originally just wanted to collect feedback. However, the conversation became much more meaningful than I expected. I opened up about my insecurity around standing up for myself, expressing my own ideas, and showing leadership in a group setting.",
+      "During my 1:1 session with her, I originally only wanted to collect feedback. However, the conversation became much more meaningful than I expected. I opened up about my insecurity around standing up for myself, sharing my ideas, and showing leadership in a group setting.",
       'Jean asked me, "Would you stand up for other people?" I said yes. Then she said something that really stayed with me: "I doubt you will stand up for someone else when you are afraid of standing up for yourself."',
-      "That sentence gave me a completely new perspective. It made me realize that speaking up is not only about confidence. It is also about responsibility: to myself, to my ideas, and to the people I may want to support in the future.",
-      "This is something I will carry forward, not only in the workplace but also in life. I told myself that I will not be afraid of saying what I truly believe in and become more vocal in sharing my thoughts in a group.",
-      "Thank you, Jean, for being more than a RAD but for being a coach who helped me become a better person.",
+      "That sentence gave me a new perspective. Speaking up is not only about confidence; it is also about responsibility - to myself, to my ideas, and to the people I may want to support in the future.",
+      "This is something I will carry forward, not only at work but also in life. Thank you, Jean, for being more than a RAD - for being a coach who helped me become a better person.",
     ].join("\n\n"),
   },
   {
     name: "Ryo Hirose",
     image: "images/ryo-hirose.jpg", // Replace this image with Ryo Hirose's photo.
     reflection: [
-      "Ryo is from Kyoto and is one of the most amazing associates I met in the Academy. In our Academy Yearbook, he jokingly said he wanted to become the \"APAC President.\" At first, I thought it was just a funny comment, but after meeting him in person, I truly believe he has the qualities to become a great leader.",
-      "From my conversations and interactions with him over these two weeks, I saw someone who always tried to do what was right, gave 100% effort in his deliverables, and still managed to bring a lot of fun and energy to the people around him. He was supportive, principled, and not afraid to say what he believed in. What made it even more inspiring was how natural it all felt. He was not doing it for attention. He was doing it because it was the right thing to do.",
-      "From Ryo, I learned what leadership can look like. It is not only about being confident or visible. It is about having strong values, supporting others, and choosing to do the right thing even when no one is watching.",
-      "One moment that stayed with me happened on the last day of the evaluation. We were walking to the San Ramon campus together and talking about our final evaluation. I asked him whether he was ready, and he jokingly said that he and his teammate were going to get a 5. I told him that getting a full score in the Academy was impossible.",
+      "Ryo is from Kyoto and is one of the most inspiring associates I met in the Academy. In our Academy Yearbook, he jokingly said he wanted to become the \"APAC President.\" At first, I thought it was just a funny comment, but after meeting him in person, I can genuinely see why.",
+      "Over the two weeks, I saw someone who gave his best in every deliverable, supported the people around him, and still brought a lot of fun and energy to the group. What inspired me most was how natural it all felt. He was not trying to get attention. He simply did what he believed was right.",
+      "Ryo showed me that leadership is not only about being confident or visible. It is about having strong values, supporting others, and choosing to do the right thing even when no one is watching.",
+      "One moment that stayed with me happened on the last day of the evaluation. We were walking to the San Ramon campus and talking about our final assessment. I asked him whether he was ready, and he jokingly said that he and his teammate were going to get a 5. I told him that getting a full score in the Academy was impossible.",
       "Then he said something that really stayed with me: \"Sam, words have spirit. You need to tell yourself you can do it, and those words will carry you and make it happen.\"",
-      "That was the moment I realized I had never really paid attention to the words I said to myself. I often told myself I could not do something, partly because I wanted to lower expectations for myself and for the people around me. But Ryo reminded me that the words we choose can shape the way we see ourselves and what we believe is possible.",
-      "Beyond inspiring me to become a better leader, Ryo also reminded me to be more mindful of the words I say to myself. From now on, I want my words to carry me forward, rather than hold me back.",
+      "That reminded me how often I use my own words to lower expectations or protect myself from disappointment. Ryo helped me realize that the words we choose can shape how we see ourselves and what we believe is possible.",
+      "Beyond inspiring me to become a better leader, Ryo reminded me to be more mindful of how I speak to myself. From now on, I want my words to carry me forward, not hold me back.",
     ].join("\n\n"),
   },
   {
@@ -164,12 +163,11 @@ const people = [
     image: "images/allen-malayo.jpg", // Replace this image with Allen Malayo's photo.
     reflection: [
       "Allen is an Account Executive from the Philippine team. From the first time I met him, he came across as gentle, polite, and very thoughtful.",
-      "I was fortunate to work with him during the CSR event in San Ramon, where we helped the HandsOn Bay Area team host an activity for the Academy. The event invited all associates to decorate blank canvas tote bags with vibrant fruit and vegetable designs, which would later be donated to people in need.",
-      "What impressed me most was how Allen naturally stepped up during the event. At first, I thought my role was simply to listen to the instructions and complete the task. But Allen was already thinking one step ahead. He created a Canva page and displayed it on the screen so everyone could clearly understand the purpose of the event and follow the process more easily.",
-      "He also actively checked whether people needed help decorating their tote bags and noticed when resources were running low. For example, when there were not enough materials, he immediately asked for more before it became a bigger problem.",
-      "Because of his initiative and leadership, the event ran smoothly. He was not the person standing at the front as the MC, so some people may not have realized how much he was doing. But to me, he was the engine behind the scenes, making sure everything worked.",
-      "Later, when I went to Napa Valley with him, I told him how much I admired his leadership. He smiled and told me that, as an Account Executive, he is always thinking about how to make his team's work easier and how to give them the resources they need.",
-      "That conversation stayed with me. From Allen, I learned that leadership is not always about being the most visible person in the room. Sometimes, real leadership means seeing what others need before they ask, creating structure for the team, and quietly helping everyone succeed.",
+      "I had the chance to work with him during the CSR event in San Ramon, where we helped the HandsOn Bay Area team host an activity for the Academy. Associates decorated canvas tote bags with fruit and vegetable designs, which would later be donated to people in need.",
+      "What impressed me most was how naturally Allen stepped up. At first, I thought my role was simply to listen to the instructions and complete the task. But Allen was already thinking one step ahead. He created a Canva page and displayed it on the screen so everyone could understand the purpose of the event and follow the process more easily.",
+      "He also checked whether people needed help, noticed when materials were running low, and asked for more before it became a bigger issue. He was not standing at the front as the MC, so some people may not have noticed how much he was doing. But to me, he was the engine behind the scenes, quietly making sure everything worked.",
+      "Later, when we went to Napa Valley, I told him how much I admired his leadership. He smiled and said that, as an Account Executive, he is always thinking about how to make his team's work easier and give them the resources they need.",
+      "That conversation stayed with me. Allen showed me that leadership is not always about being the most visible person in the room. Sometimes, it means seeing what others need before they ask, creating structure, and quietly helping everyone succeed.",
     ].join("\n\n"),
   },
   {
@@ -177,31 +175,31 @@ const people = [
     image: "images/phoebe-ngitngit.jpg", // Replace this image with Phoebe Ngitngit's photo.
     reflection: [
       "Phoebe is a Solution Advisor for SCM from the Philippine team. I first met her in a breakout room during one of our classroom sessions, and we also spent a lot of time together in San Ramon.",
-      "I cannot point to one single moment that explains why she inspired me, because it was not about one moment. It was about the way she consistently made people feel. She was always kind, warm, and thoughtful to everyone around her. Her presence made people feel comfortable, and I think that is why others naturally enjoyed being around her.",
-      "There is an old Chinese saying: “心善则美，心和则贵.” A kind heart makes a person beautiful, and a peaceful heart makes a person graceful. To me, this describes Phoebe perfectly. Her kindness and gentle energy made her presence warm, calm, and memorable.",
-      "From Phoebe, I learned that true kindness does not need to be loud. People can feel it through the way you speak, listen, and include others. It changes the atmosphere around you. It makes people feel safe and comfortable. This is the kind of presence I hope to carry with me, both in the workplace and in life.",
+      "What inspired me about Phoebe was not one single moment, but the way she consistently made people feel. She was always kind, warm, and thoughtful. Her presence made people comfortable, and I think that is why others naturally enjoyed being around her.",
+      "There is an old Chinese saying: \"心善则美，心和则贵.\" A kind heart makes a person beautiful, and a peaceful heart makes a person graceful. To me, this describes Phoebe perfectly. Her kindness and gentle energy made her presence calm, warm, and memorable.",
+      "Phoebe reminded me that true kindness does not need to be loud. People can feel it through the way you speak, listen, and include others. It changes the atmosphere around you and makes people feel safe. This is the kind of presence I hope to carry with me, both in the workplace and in life.",
     ].join("\n\n"),
   },
   {
     name: "Jeevan Joseph Mattapparampil",
     image: "images/jeevan-joseph.jpg", // Replace this image with Jeevan Joseph Mattapparampil's photo.
     reflection: [
-      "Jeevan is a Solution Advisor from India. Unexpectedly, he was also one of the most fun people to hang out with. We spent a lot of time together in San Ramon and also met up again in Los Angeles. Beyond being fun and easy to be around, he was very active and contributed a lot during the classroom experience.",
-      "He actively participated in class, raised his hand, supported others, and helped organize internal events. For me, I have always been a little afraid of initiating or being in the middle of attention, but Jeevan showed me what it looks like to step forward with confidence.",
-      "One moment that stayed with me was during an executive keynote by Oren Yadad, Global Head of SAP Research & Innovation. The room was filled with faculty and associates from the Academy. During the Q&A session, I was hesitant to raise my hand because there were so many people in the room. But Jeevan was the first to do it.",
-      "He asked a thoughtful question about how SAP can take responsibility if AI makes a mistake. It was a bold and meaningful question, and seeing him ask it so naturally made me realize that speaking up is not about trying to get attention. It is about contributing to the conversation.",
-      "From Jeevan, I learned that courage can be practiced in small moments. He reminded me that sometimes the first step to confidence is simply deciding to participate.",
+      "Jeevan is a Solution Advisor from India. Unexpectedly, he was also one of the most fun people to spend time with. We shared many moments in San Ramon and even met again in Los Angeles. Beyond being fun and easy to be around, he was also active, supportive, and highly engaged throughout the classroom experience.",
+      "He participated in class, raised his hand, supported others, and helped organize internal events. I have always been a little afraid of initiating or being in the middle of attention, but Jeevan showed me what it looks like to step forward with confidence.",
+      "One moment that stayed with me happened during an executive keynote by Oren Yadad, Global Head of SAP Research & Innovation. During the Q&A session, I hesitated to raise my hand because the room was filled with faculty and associates. But Jeevan was the first to do it.",
+      "He asked a thoughtful question about how SAP can take responsibility if AI makes a mistake. It was bold, meaningful, and natural. Seeing him ask that question made me realize that speaking up is not about seeking attention. It is about contributing to the conversation.",
+      "Jeevan reminded me that courage can be practiced in small moments. Sometimes, the first step to confidence is simply deciding to participate.",
     ].join("\n\n"),
   },
   {
     name: "Joey Chen",
     image: "images/joey-chen.jpg", // Replace this image with Joey Chen's photo.
     reflection: [
-      "Joey had already built strong experience with SuccessFactors, as she had previously interned at SAP. During the Academy evaluation, she chose to do a live demo for her part. I was very impressed because I had been relying on screenshots and videos for my own demo preparation. She told me that she had already done live demos during her internship, but what impressed me even more was that no one had asked her to do it - she took the initiative herself.",
-      "After hearing that, she inspired me to step up and try my first live demo during the evaluation, even though I had never done one before. The night before the evaluation, she offered to teach me and gave me a lot of helpful feedback. Her encouragement made me less afraid of failing and more willing to try something difficult.",
-      "By doing the live demo, I received valuable feedback and gained a much clearer understanding of what a strong demo should look like. From Joey, I learned that growth often begins when we are willing to step outside our comfort zone.",
-      "During my field experience, I want to actively seek more opportunities to practice live demos and continue improving as a SuccessFactors Solution Advisor. Joey reminded me that growth is not only personal - sometimes, our willingness to step up can also help make the community around us better.",
-      "Sidenote: What made this experience even more meaningful was that the impact did not stop with me. After I told other SuccessFactors Solution Advisors in my APAC cohort that I would try a live demo for the evaluation, some of them decided to try their first live demo as well. It reminded me that when we try to improve ourselves, we may also give others the courage to do the same.",
+      "Joey had already built strong experience with SuccessFactors through her previous SAP internship. During the Academy evaluation, she chose to do a live demo for her part. I was impressed because I had mostly relied on screenshots and videos for my own preparation. What stood out even more was that no one asked her to do it - she took the initiative herself.",
+      "Her example encouraged me to try my first live demo during the evaluation, even though I had never done one before. The night before, she offered to teach me and gave me helpful feedback. Her support made me less afraid of failing and more willing to try something difficult.",
+      "Through that experience, I received valuable feedback and gained a clearer understanding of what a strong demo should look like. Joey reminded me that growth often begins when we step outside our comfort zone.",
+      "What made the experience even more meaningful was that the impact did not stop with me. After I told other SuccessFactors Solution Advisors in my APAC cohort that I would try a live demo, some of them decided to try their first live demo as well.",
+      "During field experience, I want to actively look for more opportunities to practice live demos and continue improving as a SuccessFactors Solution Advisor. Joey showed me that when we choose to step up, we may also give others the courage to do the same.",
     ].join("\n\n"),
   },
   {
