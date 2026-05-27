@@ -382,13 +382,16 @@ function photoCard(card) {
   return `
     <article class="photo-card">
       <div class="photo-frame">
-        <img src="${assetUrl(card.image)}" alt="${card.title} placeholder" />
+        ${
+          card.video
+            ? videoBlock(card.video, `${card.title} video`)
+            : `<img src="${assetUrl(card.image)}" alt="${card.title} placeholder" />`
+        }
       </div>
       <div class="card-copy">
         <span>${card.tag}</span>
         <h3>${card.title}</h3>
         <p>${card.caption}</p>
-        ${card.video ? videoBlock(card.video, `${card.title} video`) : ""}
         <!-- Edit this caption later with your own diary-style reflection. -->
       </div>
     </article>

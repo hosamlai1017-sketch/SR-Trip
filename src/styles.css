@@ -415,13 +415,20 @@ h3 {
   border-radius: var(--radius);
 }
 
-.photo-frame img {
+.photo-frame img,
+.photo-frame video {
   position: relative;
   aspect-ratio: 4 / 3;
   border-radius: var(--radius);
   background:
     linear-gradient(135deg, rgba(255, 240, 168, 0.8), rgba(202, 234, 255, 0.8)),
     #eef4ee;
+}
+
+.photo-frame video {
+  display: block;
+  width: 100%;
+  object-fit: cover;
 }
 
 .card-copy {
@@ -444,11 +451,7 @@ h3 {
 
 .card-video {
   width: 100%;
-  margin-top: 16px;
-  border: 8px solid var(--white);
-  border-radius: var(--radius);
   background: #26312e;
-  box-shadow: var(--soft-shadow);
 }
 
 .journey {
