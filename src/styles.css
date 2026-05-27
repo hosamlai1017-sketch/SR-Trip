@@ -519,26 +519,27 @@ h3 {
 
 .people-grid {
   grid-template-columns: 1fr;
-  gap: 24px;
+  gap: 34px;
 }
 
 .person-card {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(320px, 0.72fr) minmax(0, 1fr);
-  gap: clamp(30px, 5vw, 58px);
-  align-items: start;
-  padding: clamp(22px, 3.5vw, 38px);
+  grid-template-columns: minmax(360px, 0.9fr) minmax(0, 1fr);
+  gap: clamp(44px, 6vw, 78px);
+  align-items: center;
+  padding: clamp(30px, 4vw, 52px);
+  overflow: hidden;
 }
 
 .person-card::before {
   position: absolute;
-  top: 24px;
-  left: 24px;
+  top: clamp(30px, 4vw, 52px);
+  left: clamp(30px, 4vw, 52px);
   z-index: 0;
   display: grid;
   place-items: center;
-  width: min(42vw, 420px);
+  width: min(40vw, 500px);
   aspect-ratio: 4 / 3;
   border-radius: 18px;
   color: rgba(38, 49, 46, 0.58);
@@ -556,10 +557,10 @@ h3 {
   z-index: 1;
   width: 100%;
   height: auto;
-  max-height: 520px;
-  aspect-ratio: 4 / 3;
-  border: 8px solid var(--white);
-  border-radius: 18px;
+  max-height: 560px;
+  padding: 12px;
+  border: 0;
+  border-radius: 22px;
   object-fit: contain;
   background:
     linear-gradient(135deg, rgba(217, 239, 216, 0.88), rgba(255, 216, 191, 0.78)),
@@ -567,16 +568,18 @@ h3 {
 }
 
 .person-card > div {
-  max-width: 860px;
+  max-width: 780px;
+  padding-block: 8px;
 }
 
 .person-card h3 {
   font-size: clamp(1.25rem, 2.2vw, 1.7rem);
+  margin-bottom: 10px;
 }
 
 .person-card p {
-  font-size: 1.05rem;
-  line-height: 1.75;
+  font-size: clamp(1rem, 1.25vw, 1.12rem);
+  line-height: 1.72;
   white-space: pre-line;
 }
 
@@ -835,14 +838,15 @@ h3 {
   }
 
   .person-card img {
+    width: 100%;
     max-height: none;
     aspect-ratio: auto;
   }
 
   .person-card::before {
-    top: 24px;
-    left: 24px;
-    width: calc(100% - 48px);
+    top: clamp(22px, 7vw, 30px);
+    left: clamp(22px, 7vw, 30px);
+    width: calc(100% - clamp(44px, 14vw, 60px));
     aspect-ratio: 4 / 3;
   }
 
