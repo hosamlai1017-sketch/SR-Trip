@@ -191,7 +191,7 @@ const people = [
   },
   {
     name: "Joey Chen",
-    image: "images/johanna-lauer.jpg", // Replace this image with Joey Chen's photo.
+    image: "images/joey-chen.jpg", // Replace this image with Joey Chen's photo.
     reflection: [
       "Joey had already built strong experience with SuccessFactors, as she had previously interned at SAP. During the Academy evaluation, she chose to do a live demo for her part. I was very impressed because I had been relying on screenshots and videos for my own demo preparation. She told me that she had already done live demos during her internship, but what impressed me even more was that no one had asked her to do it - she took the initiative herself.",
       "After hearing that, she inspired me to step up and try my first live demo during the evaluation, even though I had never done one before. The night before the evaluation, she offered to teach me and gave me a lot of helpful feedback. Her encouragement made me less afraid of failing and more willing to try something difficult.",
