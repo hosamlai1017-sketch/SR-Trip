@@ -552,7 +552,17 @@ h3 {
 }
 
 .person-copy {
+  display: block;
   min-width: 0;
+  max-width: 100%;
+  color: #64706b;
+  line-height: 1.8;
+}
+
+.person-copy::after {
+  display: block;
+  clear: both;
+  content: "";
 }
 
 .person-card h3 {

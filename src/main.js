@@ -430,10 +430,10 @@ function personCard(person) {
 
   return `
     <article class="person-card editorial-wrap-card">
-      <div class="floating-photo">
-        <img src="${assetUrl(person.image)}" alt="${person.name} placeholder" />
-      </div>
       <div class="person-copy">
+        <div class="floating-photo">
+          <img src="${assetUrl(person.image)}" alt="${person.name} placeholder" />
+        </div>
         <h3>${person.name}</h3>
         <span>What this encounter taught me</span>
         ${paragraphs.map((paragraph) => `<p>${paragraph}</p>`).join("")}
