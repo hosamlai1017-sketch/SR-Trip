@@ -427,28 +427,17 @@ function learningCard(item, index) {
 
 function personCard(person) {
   const paragraphs = person.reflection.split("\n\n");
-  const opening = paragraphs.slice(0, 2);
-  const rest = paragraphs.slice(2);
 
   return `
-    <article class="person-card magazine-card">
-      <div class="magazine-top">
-        <div class="person-photo">
-          <img src="${assetUrl(person.image)}" alt="${person.name} placeholder" />
-        </div>
-        <div class="person-intro">
-          <h3>${person.name}</h3>
-          <span>What this encounter taught me</span>
-          ${opening.map((paragraph) => `<p>${paragraph}</p>`).join("")}
-        </div>
+    <article class="person-card editorial-wrap-card">
+      <div class="floating-photo">
+        <img src="${assetUrl(person.image)}" alt="${person.name} placeholder" />
       </div>
-      ${
-        rest.length
-          ? `<div class="person-story">${rest
-              .map((paragraph) => `<p>${paragraph}</p>`)
-              .join("")}</div>`
-          : ""
-      }
+      <div class="person-copy">
+        <h3>${person.name}</h3>
+        <span>What this encounter taught me</span>
+        ${paragraphs.map((paragraph) => `<p>${paragraph}</p>`).join("")}
+      </div>
       <!-- Edit this reflection later with your own memory of this person or group. -->
     </article>
   `;

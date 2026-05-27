@@ -522,74 +522,49 @@ h3 {
   gap: 34px;
 }
 
-.magazine-card {
+.editorial-wrap-card {
+  overflow: hidden;
   padding: clamp(28px, 4vw, 48px);
 }
 
-.magazine-top {
-  display: grid;
-  grid-template-columns: minmax(280px, 420px) minmax(0, 1fr);
-  gap: clamp(32px, 4vw, 48px);
-  align-items: start;
-}
-
-.person-photo {
-  align-self: start;
-  display: grid;
-  place-items: center;
-  width: 100%;
-  min-width: 0;
+.floating-photo {
+  float: left;
+  width: min(380px, 42%);
+  margin: 0 clamp(32px, 4vw, 48px) 28px 0;
   padding: 12px;
-  border-radius: 22px;
-  color: rgba(38, 49, 46, 0.58);
+  border-radius: 24px;
   background:
     linear-gradient(135deg, rgba(217, 239, 216, 0.88), rgba(255, 216, 191, 0.78)),
     #eef4ee;
 }
 
-.person-photo img {
+.floating-photo img {
   display: block;
   width: 100%;
   max-width: 100%;
   height: auto;
   border: 8px solid var(--white);
-  border-radius: 18px;
+  border-radius: 16px;
   object-fit: contain;
   object-position: center;
   background:
     rgba(255, 255, 255, 0.44);
 }
 
-.person-intro {
+.person-copy {
   min-width: 0;
-  max-width: 680px;
 }
 
 .person-card h3 {
   font-size: clamp(1.25rem, 2.2vw, 1.7rem);
+  margin-top: 0;
   margin-bottom: 10px;
 }
 
 .person-card p {
   font-size: clamp(1rem, 1.25vw, 1.12rem);
-  line-height: 1.72;
-}
-
-.person-intro p {
-  margin-bottom: 0;
-}
-
-.person-story {
-  max-width: 980px;
-  margin-top: clamp(24px, 3vw, 32px);
-}
-
-.person-story p {
-  margin-bottom: 22px;
-}
-
-.person-story p:last-child {
-  margin-bottom: 0;
+  line-height: 1.8;
+  margin-bottom: 20px;
 }
 
 .classroom-layout {
@@ -841,13 +816,8 @@ h3 {
     grid-template-columns: 1fr;
   }
 
-  .magazine-card {
+  .editorial-wrap-card {
     padding: 28px;
-  }
-
-  .magazine-top {
-    grid-template-columns: 1fr;
-    gap: 28px;
   }
 
   .learning-card:nth-child(even),
@@ -855,12 +825,11 @@ h3 {
     transform: none;
   }
 
-  .person-photo {
+  .floating-photo {
+    float: none;
+    width: 100%;
+    margin: 0 0 28px;
     padding: 8px;
-  }
-
-  .person-story {
-    margin-top: 24px;
   }
 
   .section-heading {
