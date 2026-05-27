@@ -522,25 +522,24 @@ h3 {
   gap: 34px;
 }
 
-.person-card {
-  display: grid;
-  gap: clamp(18px, 3vw, 28px);
-  padding: clamp(30px, 4vw, 52px);
+.magazine-card {
+  padding: clamp(28px, 4vw, 48px);
 }
 
-.person-feature {
+.magazine-top {
   display: grid;
-  grid-template-columns: minmax(260px, 38%) minmax(0, 1fr);
-  gap: clamp(28px, 4vw, 48px);
+  grid-template-columns: minmax(280px, 420px) minmax(0, 1fr);
+  gap: clamp(32px, 4vw, 48px);
   align-items: start;
 }
 
-.person-media {
+.person-photo {
+  align-self: start;
   display: grid;
   place-items: center;
   width: 100%;
   min-width: 0;
-  padding: clamp(8px, 1.2vw, 14px);
+  padding: 12px;
   border-radius: 22px;
   color: rgba(38, 49, 46, 0.58);
   background:
@@ -548,7 +547,8 @@ h3 {
     #eef4ee;
 }
 
-.person-media img {
+.person-photo img {
+  display: block;
   width: 100%;
   max-width: 100%;
   height: auto;
@@ -560,8 +560,9 @@ h3 {
     rgba(255, 255, 255, 0.44);
 }
 
-.person-copy {
+.person-intro {
   min-width: 0;
+  max-width: 680px;
 }
 
 .person-card h3 {
@@ -572,16 +573,23 @@ h3 {
 .person-card p {
   font-size: clamp(1rem, 1.25vw, 1.12rem);
   line-height: 1.72;
-  white-space: pre-line;
 }
 
-.person-opening p {
+.person-intro p {
   margin-bottom: 0;
 }
 
-.person-reflection {
-  max-width: 1040px;
-  padding-top: clamp(4px, 1vw, 10px);
+.person-story {
+  max-width: 980px;
+  margin-top: clamp(24px, 3vw, 32px);
+}
+
+.person-story p {
+  margin-bottom: 22px;
+}
+
+.person-story p:last-child {
+  margin-bottom: 0;
 }
 
 .classroom-layout {
@@ -833,8 +841,13 @@ h3 {
     grid-template-columns: 1fr;
   }
 
-  .person-feature {
+  .magazine-card {
+    padding: 28px;
+  }
+
+  .magazine-top {
     grid-template-columns: 1fr;
+    gap: 28px;
   }
 
   .learning-card:nth-child(even),
@@ -842,13 +855,12 @@ h3 {
     transform: none;
   }
 
-  .person-media {
+  .person-photo {
     padding: 8px;
   }
 
-  .person-media img {
-    max-height: none;
-    aspect-ratio: auto;
+  .person-story {
+    margin-top: 24px;
   }
 
   .section-heading {
