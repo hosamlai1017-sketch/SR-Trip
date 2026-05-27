@@ -56,14 +56,14 @@ const professionalHighlights = [
   {
     title: "SNP Session",
     tag: "Professional highlight",
-    image: "images/classroom.jpg", // Replace this image with your SNP session photo.
+    image: "images/snp-session.jpg", // Replace this image with your SNP session photo.
     caption:
       "During the SNP Presentation session, we learned how to use the SNP presentation framework, including the \"SNP Triangle,\" to structure clearer and more engaging presentations. We also practiced ways to make presentations more interactive, such as asking \"What questions do you have?\" and maintaining eye contact to each audience. After each presentation, we reviewed our performance and reflected on what we could improve. I was really amazed by the progress I made throughout the session, and I gained valuable lessons on how to deliver a stronger presentation.",
   },
   {
     title: "Academy Demo Framework",
     tag: "Demo craft",
-    image: "images/classroom.jpg", // Replace this image with your demo framework photo.
+    image: "images/academy-demo-framework.jpg", // Replace this image with your demo framework photo.
     caption: [
       "I learned that a strong presentation is not just about delivering information, but about guiding the audience through a clear story. The framework taught me how to start with a strong opening, connect the presentation to the customer's challenges, use the demo to prove value, and close with a memorable message. It also reminded me to keep the audience engaged through questions, interaction, and clear storytelling.",
       "In one of the lecture, Daniel Arroyo (a fellow from Columbia who is a SuccessFactors Solution Advisor)'s demo also showed me what a strong Academy-standard demo looks like and gave me a clearer direction for improvement.",
@@ -72,7 +72,7 @@ const professionalHighlights = [
   {
     title: "Objection Handling",
     tag: "Customer confidence",
-    image: "images/classroom.jpg", // Replace this image with your objection handling photo.
+    image: "images/objection-handling.jpg", // Replace this image with your objection handling photo.
     caption: [
       "During the Objection Handling session, we learned different ways to respond to objections, such as reframing the question before answering. We also had the opportunity to practice handling real-life objections.",
       "From my final evaluation in San Ramon, I realized that I need to answer with more confidence, even when I am not 100% sure of the response. If I sound uncertain, the customer may also lose confidence. Moving forward, I will apply what I learned from the session and continue practicing this skill in the field.",
@@ -81,7 +81,7 @@ const professionalHighlights = [
   {
     title: "CVJ Selection Evaluation",
     tag: "VAT team",
-    image: "images/team.jpg", // Replace this image with your VAT team photo.
+    image: "images/cvj-selection-evaluation.jpg", // Replace this image with your VAT team photo.
     caption:
       "During the evaluation, my VAT team and I worked on a real-life business case to show how SuccessFactors could address the client's challenges. We applied what we learned in San Ramon, including presentation skills, customer interaction, AI strategy, and client engagement. It was valuable not only because we could test our knowledge, but also because we learned how to work with teammates from different cultures and backgrounds. This experience taught me to stay open-minded, respect different working styles, and adapt as a team to deliver the best result.",
   },
