@@ -338,20 +338,37 @@ function app() {
           <p class="eyebrow">Thought of the trip</p>
           <h2>Thoughts I'm Carrying Forward</h2>
           ${quoteBlock(
-            "What I will carry forward from this trip is not only the frameworks, tools, and presentation techniques, but also the mindset of continuous growth. San Ramon reminded me that learning happens in classrooms, in conversations, in team moments, and even in small late-night reflections."
+            [
+              "What I will carry forward from San Ramon is not only the frameworks, tools, and presentation techniques, but also the mindset to keep learning, stay curious, step up when it matters, and do what feels right.",
+              "This trip reminded me that growth happens in many forms - through classroom learning, honest conversations, team moments, and the people who encouraged me along the way. I feel grateful that I had the chance to be here, learn from others, and bring these lessons into the next stage of my journey.",
+            ]
+              .map((paragraph) => `<p>${paragraph}</p>`)
+              .join("")
           )}
           <p>
-            As I continue my journey as a Solution Advisor, I want to bring this
-            sense of curiosity, gratitude, and courage into every customer
-            conversation. I want to keep learning, keep listening, and keep
-            growing through the people and moments that shape me.
+            As I continue my journey as a Solution Advisor, I want to carry this
+            mindset into every customer conversation and team interaction. I
+            will keep listening with empathy, speak up for what I believe in,
+            and continue growing through the people and moments that shape me.
           </p>
+          <div class="journey-arrow" aria-label="San Ramon to field experience journey">
+            <span>San Ramon</span>
+            <span>Gratitude</span>
+            <span>Growth</span>
+            <span>Field Experience</span>
+          </div>
+          <div class="focus-box">
+            <h3>Focus next week</h3>
+            <p>Put my 100% effort into field experience and turn what I learned in San Ramon into action.</p>
+          </div>
           <div class="carry-tags" aria-label="Career reflections">
-            <span>Continuous learning</span>
-            <span>Mentorship</span>
-            <span>Community</span>
-            <span>Customer empathy</span>
-            <span>Solution Advisor growth</span>
+            <span>Continuous Learning</span>
+            <span>Stay Curious</span>
+            <span>Step Up</span>
+            <span>Do What's Right</span>
+            <span>Empathy</span>
+            <span>Speak Up</span>
+            <span>Field Experience</span>
           </div>
         </div>
       </section>
