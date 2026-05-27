@@ -341,19 +341,22 @@ function app() {
           <div class="carry-forward-note">
             <span class="note-label">NOTE</span>
             <div class="note-content">
-              <p>What I will carry forward from San Ramon is more than what I learned in the sessions. It is the mindset to keep learning, stay curious, step up when it matters, and do what feels right with courage and empathy.</p>
-              <p>This trip reminded me that growth often comes from the people around us - from the conversations that challenge us, the feedback that makes us think, and the moments that encourage us to become better. I feel truly grateful that I had the chance to be here, to learn alongside others, and to be inspired by people who showed me what leadership, support, and authenticity can look like.</p>
-              <p>As I move into field experience, I want to carry this forward by speaking up for what I believe in, listening with empathy, and putting my 100% into turning these lessons into action.</p>
+              <p>What I will carry forward from San Ramon is more than what I learned from the sessions. It is the mindset to keep learning, stay curious, step up when it matters, and do what feels right with courage and empathy.</p>
+              <p>This trip reminded me that growth often comes from the people around us - from the conversations that challenge us, the feedback that makes us think, and the moments that encourage us to become better. I feel truly grateful for the chance to be here, learn alongside others, and be inspired by people who showed me what leadership, support, and authenticity can look like.</p>
+              <p>As I move into field experience, I want to carry this forward by speaking up for what I believe in, listening with empathy, and putting my full effort into turning these lessons into action.</p>
             </div>
           </div>
 
           <div class="next-focus-block">
-            <p class="focus-heading">My focus in the next 10 weeks</p>
+            <p class="focus-heading">Carrying this into the next 10 weeks</p>
             <div class="focus-journey" aria-label="San Ramon to field experience journey">
-              <span>San Ramon</span>
-              <span>Gratitude</span>
-              <span>Growth</span>
-              <span>Field Experience</span>
+              <span class="focus-step">San Ramon</span>
+              <span class="focus-arrow">-&gt;</span>
+              <span class="focus-step">Gratitude</span>
+              <span class="focus-arrow">-&gt;</span>
+              <span class="focus-step">Growth</span>
+              <span class="focus-arrow">-&gt;</span>
+              <span class="focus-step">Field Experience</span>
             </div>
           </div>
         </div>

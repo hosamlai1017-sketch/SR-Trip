@@ -632,7 +632,7 @@ h3 {
 }
 
 .closing {
-  max-width: 1180px;
+  max-width: 1380px;
   margin: 0 auto;
 }
 
@@ -648,9 +648,11 @@ h3 {
 }
 
 .carry-forward-section {
-  max-width: 1080px;
+  width: 100%;
+  max-width: 100%;
   padding: clamp(32px, 6vw, 64px);
   border-radius: 32px;
+  border: 1px solid rgba(255, 180, 120, 0.35);
   background:
     linear-gradient(135deg, rgba(255, 253, 248, 0.92), rgba(255, 244, 223, 0.94)),
     var(--white);
@@ -684,6 +686,9 @@ h3 {
   display: block;
   width: 100%;
   max-width: 780px;
+  columns: auto;
+  column-count: initial;
+  column-width: auto;
 }
 
 .note-content p {
@@ -762,11 +767,11 @@ h3 {
 .focus-journey {
   display: flex;
   flex-wrap: wrap;
-  gap: 14px;
+  gap: 12px;
   align-items: center;
 }
 
-.focus-journey span {
+.focus-step {
   display: inline-flex;
   align-items: center;
   padding: 12px 20px;
@@ -779,10 +784,9 @@ h3 {
   font-weight: 800;
 }
 
-.focus-journey span:not(:last-child)::after {
-  content: "->";
-  margin-left: 14px;
+.focus-arrow {
   color: var(--peach-strong);
+  font-size: 1.15rem;
   font-weight: 900;
 }
 
@@ -804,6 +808,7 @@ h3 {
 
 @media (max-width: 768px) {
   .carry-forward-section {
+    width: 100%;
     padding: 32px 24px;
   }
 
@@ -825,13 +830,14 @@ h3 {
     align-items: stretch;
   }
 
-  .focus-journey span {
-    justify-content: space-between;
+  .focus-step {
+    justify-content: center;
     width: 100%;
   }
 
-  .focus-journey span:not(:last-child)::after {
-    margin-left: auto;
+  .focus-arrow {
+    text-align: center;
+    transform: rotate(90deg);
   }
 }
 
