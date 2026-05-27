@@ -427,8 +427,8 @@ function learningCard(item, index) {
 
 function personCard(person) {
   const paragraphs = person.reflection.split("\n\n");
-  const opening = paragraphs.shift() || "";
-  const rest = paragraphs;
+  const opening = paragraphs.slice(0, 2);
+  const rest = paragraphs.slice(2);
 
   return `
     <article class="person-card magazine-card">
@@ -439,7 +439,7 @@ function personCard(person) {
         <div class="person-intro">
           <h3>${person.name}</h3>
           <span>What this encounter taught me</span>
-          <p>${opening}</p>
+          ${opening.map((paragraph) => `<p>${paragraph}</p>`).join("")}
         </div>
       </div>
       ${
