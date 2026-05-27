@@ -718,26 +718,6 @@ h3 {
   color: var(--peach-strong);
 }
 
-.focus-box {
-  max-width: 680px;
-  margin-top: 22px;
-  padding: 20px 22px;
-  border: 1px solid rgba(75, 159, 199, 0.2);
-  border-radius: var(--radius);
-  background: rgba(202, 234, 255, 0.42);
-  box-shadow: var(--soft-shadow);
-}
-
-.focus-box h3 {
-  margin-bottom: 8px;
-  font-size: 1.05rem;
-}
-
-.focus-box p {
-  margin: 0;
-  color: #53645f;
-}
-
 .carry-tags {
   display: flex;
   flex-wrap: wrap;
