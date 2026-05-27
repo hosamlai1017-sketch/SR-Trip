@@ -7,6 +7,8 @@ const navItems = [
   ["Carry Forward", "#forward"],
 ];
 
+const assetVersion = "20260527-hero-refresh";
+
 const funActivities = [
   {
     title: "Napa Valley One-day Trip",
@@ -40,6 +42,7 @@ const funActivities = [
     title: "Karaoke Bar",
     tag: "Shared joy",
     image: "images/karaoke.jpg", // Replace this image with your karaoke photo.
+    video: "videos/karaoke-bar.mp4", // Replace this video with your Karaoke Bar video.
     caption:
       "I joined the Karaoke Bar night with Academy cohorts from around the world. It was such a fun evening filled with music, laughter, and good energy. I even planned to sing a song on stage with Ryo from my APAC cohort, but the waiting time was too long - what a shame!",
   },
@@ -57,6 +60,7 @@ const professionalHighlights = [
     title: "SNP Session",
     tag: "Professional highlight",
     image: "images/snp-session.jpg", // Replace this image with your SNP session photo.
+    video: "snp-session.mp4", // Replace this video with your SNP Session video.
     caption:
       "During the SNP Presentation session, we learned how to use the SNP presentation framework, including the \"SNP Triangle,\" to structure clearer and more engaging presentations. We also practiced ways to make presentations more interactive, such as asking \"What questions do you have?\" and maintaining eye contact to each audience. After each presentation, we reviewed our performance and reflected on what we could improve. I was really amazed by the progress I made throughout the session, and I gained valuable lessons on how to deliver a stronger presentation.",
   },
@@ -260,7 +264,7 @@ function app() {
           </div>
         </div>
         <div class="hero-visual">
-          <img src="images/san-ramon-hero.jpg" alt="San Ramon trip memory placeholder" />
+          <img src="${assetUrl("images/san-ramon-hero.jpg")}" alt="San Ramon trip memory placeholder" />
           <!-- Replace images/san-ramon-hero.jpg with your main San Ramon trip photo. -->
           <div class="journal-note">
             <span>Location</span>
@@ -378,15 +382,26 @@ function photoCard(card) {
   return `
     <article class="photo-card">
       <div class="photo-frame">
-        <img src="${card.image}" alt="${card.title} placeholder" />
+        <img src="${assetUrl(card.image)}" alt="${card.title} placeholder" />
       </div>
       <div class="card-copy">
         <span>${card.tag}</span>
         <h3>${card.title}</h3>
         <p>${card.caption}</p>
+        ${card.video ? videoBlock(card.video, `${card.title} video`) : ""}
         <!-- Edit this caption later with your own diary-style reflection. -->
       </div>
     </article>
+  `;
+}
+
+function videoBlock(src, label) {
+  return `
+    <video class="card-video" controls preload="metadata">
+      <source src="${assetUrl(src)}" type="video/mp4" />
+      Your browser does not support this video.
+    </video>
+    <!-- Replace ${src} with your own MP4 video if needed. -->
   `;
 }
 
@@ -410,7 +425,7 @@ function learningCard(item, index) {
 function personCard(person) {
   return `
     <article class="person-card">
-      <img src="${person.image}" alt="${person.name} placeholder" />
+      <img src="${assetUrl(person.image)}" alt="${person.name} placeholder" />
       <div>
         <h3>${person.name}</h3>
         <span>What this encounter taught me</span>
@@ -439,6 +454,10 @@ function quoteBlock(text) {
       <span class="quote-heart" aria-hidden="true">Forward</span>
     </blockquote>
   `;
+}
+
+function assetUrl(path) {
+  return `${path}?v=${assetVersion}`;
 }
 
 document.getElementById("root").innerHTML = app();

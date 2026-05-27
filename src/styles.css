@@ -442,6 +442,15 @@ h3 {
   white-space: pre-line;
 }
 
+.card-video {
+  width: 100%;
+  margin-top: 16px;
+  border: 8px solid var(--white);
+  border-radius: var(--radius);
+  background: #26312e;
+  box-shadow: var(--soft-shadow);
+}
+
 .journey {
   position: relative;
   display: grid;
