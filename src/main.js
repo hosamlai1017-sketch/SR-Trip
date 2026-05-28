@@ -337,9 +337,10 @@ function app() {
         title: "People Who Inspired Me",
         body: `
           <p class="section-lede">
-            People shaped the meaning of this trip. These encounters reminded
-            me that learning feels deeper when it is shared through mentorship,
-            encouragement, and community.
+            People shaped the meaning of this trip. While I cannot include
+            everyone here, every conversation, encouragement, and small
+            interaction gave me something to learn from. These are a few
+            moments that stayed with me most.
           </p>
           <div class="people-grid">${people.map(personCard).join("")}</div>
         `,
