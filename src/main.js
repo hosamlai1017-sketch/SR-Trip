@@ -7,7 +7,7 @@ const navItems = [
   ["Carry Forward", "#forward"],
 ];
 
-const assetVersion = "20260527-people-takeaways";
+const assetVersion = "20260527-takeaway-visible";
 
 const funActivities = [
   {
@@ -217,6 +217,8 @@ const people = [
   {
     name: "Hong Kong Team",
     image: "images/hong-kong-team.jpg", // Replace this image with your Hong Kong Team photo.
+    takeaway:
+      "A supportive team can make learning, stretching, and growing feel less lonely.",
     reflection:
       "This group reminded me how much community matters when you are learning, stretching, and growing together.",
   },
