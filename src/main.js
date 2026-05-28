@@ -7,7 +7,7 @@ const navItems = [
   ["Carry Forward", "#forward"],
 ];
 
-const assetVersion = "20260527-people-ryo-joey";
+const assetVersion = "20260527-people-phoebe-allen";
 
 const funActivities = [
   {
@@ -168,7 +168,7 @@ const people = [
     takeaway:
       "Quiet leadership means noticing what others need and helping the team succeed.",
     reflection: [
-      "Allen is an Account Executive from the Philippine team. From the first time I met him, he came across as gentle, polite, and very thoughtful.",
+      "Allen is an Account Executive from the Philippine. From the first time I met him, he came across as gentle, polite, and very thoughtful.",
       "I had the chance to work with him during the CSR event in San Ramon, where we helped the HandsOn Bay Area team host an activity for the Academy. Associates decorated canvas tote bags with fruit and vegetable designs, which would later be donated to people in need.",
       "What impressed me most was how naturally Allen stepped up. At first, I thought my role was simply to listen to the instructions and complete the task. But Allen was already thinking one step ahead. He created a Canva page and displayed it on the screen so everyone could understand the purpose of the event and follow the process more easily.",
       "He also checked whether people needed help, noticed when materials were running low, and asked for more before it became a bigger issue. He was not standing at the front as the MC, so some people may not have noticed how much he was doing. But to me, he was the engine behind the scenes, quietly making sure everything worked.",
@@ -182,7 +182,7 @@ const people = [
     takeaway:
       "Kindness can be quiet, but it can still make people feel safe and included.",
     reflection: [
-      "Phoebe is a Solution Advisor for SCM from the Philippine team. I first met her in a breakout room during one of our classroom sessions, and we also spent a lot of time together in San Ramon.",
+      "Phoebe is a Solution Advisor for SCM from the Philippine. I first met her in a breakout room during one of our classroom sessions, and we also spent a lot of time together in San Ramon.",
       "What inspired me about Phoebe was not one single moment, but the way she consistently made people feel. She was always kind, warm, and thoughtful. Her presence made people comfortable, and I think that is why others naturally enjoyed being around her.",
       "There is an old Chinese saying: \"心善则美，心和则贵.\" A kind heart makes a person beautiful, and a peaceful heart makes a person graceful. To me, this describes Phoebe perfectly. Her kindness and gentle energy made her presence calm, warm, and memorable.",
       "Phoebe reminded me that true kindness does not need to be loud. People can feel it through the way you speak, listen, and include others. It changes the atmosphere around you and makes people feel safe. This is the kind of presence I hope to carry with me, both in the workplace and in life.",
