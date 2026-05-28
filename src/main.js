@@ -7,7 +7,7 @@ const navItems = [
   ["Carry Forward", "#forward"],
 ];
 
-const assetVersion = "20260527-hero-refresh";
+const assetVersion = "20260527-people-takeaways";
 
 const funActivities = [
   {
@@ -137,6 +137,8 @@ const people = [
   {
     name: "Jean Ooi",
     image: "images/jean-ooi.jpg", // Replace this image with Jean Ooi's photo.
+    takeaway:
+      "Speaking up is responsibility - to myself, my ideas, and the people I may support.",
     reflection: [
       "Jean Ooi is my RAD, and San Ramon was the first time I met her in person. Throughout the classroom experience, she was incredibly supportive to all of us.",
       "During my 1:1 session with her, I originally only wanted to collect feedback. However, the conversation became much more meaningful than I expected. I opened up about my insecurity around standing up for myself, sharing my ideas, and showing leadership in a group setting.",
@@ -148,6 +150,8 @@ const people = [
   {
     name: "Ryo Hirose",
     image: "images/ryo-hirose.jpg", // Replace this image with Ryo Hirose's photo.
+    takeaway:
+      "Believe in the words I tell myself - they can shape what I think is possible.",
     reflection: [
       "Ryo is from Kyoto and is one of the most inspiring associates I met in the Academy. In our Academy Yearbook, he jokingly said he wanted to become the \"APAC President.\" At first, I thought it was just a funny comment, but after meeting him in person, I can genuinely see why.",
       "Over the two weeks, I saw someone who gave his best in every deliverable, supported the people around him, and still brought a lot of fun and energy to the group. What inspired me most was how natural it all felt. He was not trying to get attention. He simply did what he believed was right.",
@@ -161,6 +165,8 @@ const people = [
   {
     name: "Allen Malayo",
     image: "images/allen-malayo.jpg", // Replace this image with Allen Malayo's photo.
+    takeaway:
+      "Quiet leadership means noticing what others need and helping the team succeed.",
     reflection: [
       "Allen is an Account Executive from the Philippine team. From the first time I met him, he came across as gentle, polite, and very thoughtful.",
       "I had the chance to work with him during the CSR event in San Ramon, where we helped the HandsOn Bay Area team host an activity for the Academy. Associates decorated canvas tote bags with fruit and vegetable designs, which would later be donated to people in need.",
@@ -173,6 +179,8 @@ const people = [
   {
     name: "Phoebe Ngitngit",
     image: "images/phoebe-ngitngit.jpg", // Replace this image with Phoebe Ngitngit's photo.
+    takeaway:
+      "Kindness can be quiet, but it can still make people feel safe and included.",
     reflection: [
       "Phoebe is a Solution Advisor for SCM from the Philippine team. I first met her in a breakout room during one of our classroom sessions, and we also spent a lot of time together in San Ramon.",
       "What inspired me about Phoebe was not one single moment, but the way she consistently made people feel. She was always kind, warm, and thoughtful. Her presence made people comfortable, and I think that is why others naturally enjoyed being around her.",
@@ -183,6 +191,8 @@ const people = [
   {
     name: "Jeevan Joseph Mattapparampil",
     image: "images/jeevan-joseph.jpg", // Replace this image with Jeevan Joseph Mattapparampil's photo.
+    takeaway:
+      "Confidence starts with small moments of courage and participation.",
     reflection: [
       "Jeevan is a Solution Advisor from India. Unexpectedly, he was also one of the most fun people to spend time with. We shared many moments in San Ramon and even met again in Los Angeles. Beyond being fun and easy to be around, he was also active, supportive, and highly engaged throughout the classroom experience.",
       "He participated in class, raised his hand, supported others, and helped organize internal events. I have always been a little afraid of initiating or being in the middle of attention, but Jeevan showed me what it looks like to step forward with confidence.",
@@ -194,6 +204,8 @@ const people = [
   {
     name: "Joey Chen",
     image: "images/joey-chen.jpg", // Replace this image with Joey Chen's photo.
+    takeaway:
+      "Trying something difficult can open the door for my own growth and inspire others too.",
     reflection: [
       "Joey had already built strong experience with SuccessFactors through her previous SAP internship. During the Academy evaluation, she chose to do a live demo for her part. I was impressed because I had mostly relied on screenshots and videos for my own preparation. What stood out even more was that no one asked her to do it - she took the initiative herself.",
       "Her example encouraged me to try my first live demo during the evaluation, even though I had never done one before. The night before, she offered to teach me and gave me helpful feedback. Her support made me less afraid of failing and more willing to try something difficult.",
@@ -435,8 +447,14 @@ function personCard(person) {
   return `
     <article class="person-card editorial-wrap-card">
       <div class="person-copy">
-        <div class="floating-photo">
-          <img src="${assetUrl(person.image)}" alt="${person.name} placeholder" />
+        <div class="person-left">
+          <div class="floating-photo">
+            <img src="${assetUrl(person.image)}" alt="${person.name} placeholder" />
+          </div>
+          <div class="person-takeaway">
+            <p class="person-takeaway-label">What this person showed me</p>
+            <p>${person.takeaway}</p>
+          </div>
         </div>
         <h3>${person.name}</h3>
         <span>What this encounter taught me</span>
