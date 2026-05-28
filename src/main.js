@@ -7,7 +7,7 @@ const navItems = [
   ["Carry Forward", "#forward"],
 ];
 
-const assetVersion = "20260527-takeaway-visible";
+const assetVersion = "20260527-people-ryo-joey";
 
 const funActivities = [
   {
@@ -153,7 +153,7 @@ const people = [
     takeaway:
       "Believe in the words I tell myself - they can shape what I think is possible.",
     reflection: [
-      "Ryo is from Kyoto and is one of the most inspiring associates I met in the Academy. In our Academy Yearbook, he jokingly said he wanted to become the \"APAC President.\" At first, I thought it was just a funny comment, but after meeting him in person, I can genuinely see why.",
+      "Ryo is a Solution Advisor for BTP from Japan. He is one of the most inspiring associates I met in the Academy. In our Academy Yearbook, he jokingly said he wanted to become the \"APAC President.\" At first, I thought it was just a funny comment, but after meeting him in person, I can genuinely see why.",
       "Over the two weeks, I saw someone who gave his best in every deliverable, supported the people around him, and still brought a lot of fun and energy to the group. What inspired me most was how natural it all felt. He was not trying to get attention. He simply did what he believed was right.",
       "Ryo showed me that leadership is not only about being confident or visible. It is about having strong values, supporting others, and choosing to do the right thing even when no one is watching.",
       "One moment that stayed with me happened on the last day of the evaluation. We were walking to the San Ramon campus and talking about our final assessment. I asked him whether he was ready, and he jokingly said that he and his teammate were going to get a 5. I told him that getting a full score in the Academy was impossible.",
@@ -207,7 +207,7 @@ const people = [
     takeaway:
       "Trying something difficult can open the door for my own growth and inspire others too.",
     reflection: [
-      "Joey had already built strong experience with SuccessFactors through her previous SAP internship. During the Academy evaluation, she chose to do a live demo for her part. I was impressed because I had mostly relied on screenshots and videos for my own preparation. What stood out even more was that no one asked her to do it - she took the initiative herself.",
+      "Joey is a Solution Advisor for SF from Stockholm. She had already built strong experience with SuccessFactors through her previous SAP internship. During the Academy evaluation, she chose to do a live demo for her part. I was impressed because I had mostly relied on screenshots and videos for my own preparation. What stood out even more was that no one asked her to do it - she took the initiative herself.",
       "Her example encouraged me to try my first live demo during the evaluation, even though I had never done one before. The night before, she offered to teach me and gave me helpful feedback. Her support made me less afraid of failing and more willing to try something difficult.",
       "Through that experience, I received valuable feedback and gained a clearer understanding of what a strong demo should look like. Joey reminded me that growth often begins when we step outside our comfort zone.",
       "What made the experience even more meaningful was that the impact did not stop with me. After I told other SuccessFactors Solution Advisors in my APAC cohort that I would try a live demo, some of them decided to try their first live demo as well.",
