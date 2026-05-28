@@ -12,7 +12,7 @@ const assetVersion = "20260527-takeaway-visible";
 const funActivities = [
   {
     title: "Napa Valley One-day Trip",
-    tag: "APAC Cohort",
+    tag: "Wine Country Day",
     image: "images/napa.jpg", // Replace this image with your Napa Valley photo.
     caption:
       "We spent a beautiful day in Napa Valley together, tasting different wines from the region and sharing many meaningful conversations. It was a great chance to get to know each other beyond the classroom. I really enjoyed the wine, the conversations, and the memories we created there.",
@@ -25,7 +25,7 @@ const funActivities = [
       "Exploring San Francisco together gave us space to connect, laugh, and enjoy the city as a team. We took many photos, shared fun moments, and created memories that made the trip even more meaningful.",
   },
   {
-    title: "Room 220",
+    title: "Late night gathering at Room 220",
     tag: "Late-night party",
     image: "images/team.jpg", // Replace this image with a late-night party photo.
     caption:
