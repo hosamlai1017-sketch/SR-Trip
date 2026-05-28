@@ -322,7 +322,7 @@ h3 {
   align-items: flex-start;
   gap: 16px;
   width: 100%;
-  max-width: 980px;
+  max-width: 1180px;
   margin-bottom: 20px;
 }
 
@@ -342,7 +342,7 @@ h3 {
 
 .section-lede {
   width: 100%;
-  max-width: 980px;
+  max-width: 1120px;
   margin-bottom: 34px;
   line-height: 1.8;
 }
