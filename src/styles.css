@@ -234,12 +234,14 @@ h3 {
 
 .hero-visual {
   position: relative;
-  min-height: 560px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-height: 0;
 }
 
 .hero-visual img,
 .classroom-photo img {
-  height: 100%;
   min-height: 520px;
   border: 12px solid var(--white);
   border-radius: 28px;
@@ -284,10 +286,10 @@ h3 {
 }
 
 .journal-note {
-  position: absolute;
-  right: clamp(8px, 4vw, 42px);
-  bottom: -20px;
-  width: min(310px, 78%);
+  position: relative;
+  z-index: 2;
+  align-self: flex-end;
+  width: min(430px, 100%);
   padding: 20px;
   border: 1px solid rgba(239, 155, 69, 0.24);
   border-radius: var(--radius);
@@ -955,11 +957,9 @@ h3 {
   }
 
   .journal-note {
-    position: relative;
-    right: auto;
-    bottom: auto;
-    width: calc(100% - 22px);
-    margin: -36px auto 0;
+    align-self: stretch;
+    width: 100%;
+    margin: 0;
   }
 
   .photo-grid,
