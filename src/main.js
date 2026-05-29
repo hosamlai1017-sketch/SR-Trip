@@ -8,7 +8,7 @@ const navItems = [
   ["Carry Forward", "#forward"],
 ];
 
-const assetVersion = "20260529-shoutout-copy";
+const assetVersion = "20260529-jean-forward";
 
 const funActivities = [
   {
@@ -154,7 +154,7 @@ const people = [
       "Speaking up is responsibility - to myself, my ideas, and the people I may support.",
     reflection: [
       "Jean Ooi is my RAD, and San Ramon was the first time I met her in person. Throughout the classroom experience, she was incredibly supportive to all of us.",
-      "During my 1:1 session with her, I originally only wanted to collect feedback. However, the conversation became much more meaningful than I expected. I opened up about my insecurity around standing up for myself, sharing my ideas, and showing leadership in a group setting.",
+      "During my 1:1 session with her, I originally only wanted to collect feedback. However, the conversation became much more meaningful than I expected. We talked about how I could be more intentional in speaking up, contributing my ideas, and showing leadership in a group setting.",
       'Jean asked me, "Would you stand up for other people?" I said yes. Then she said something that really stayed with me: "I doubt you will stand up for someone else when you are afraid of standing up for yourself."',
       "That sentence gave me a new perspective. Speaking up is not only about confidence; it is also about responsibility - to myself, to my ideas, and to the people I may want to support in the future.",
       "This is something I will carry forward, not only at work but also in life. Thank you, Jean, for being more than a RAD - for being a coach who helped me become a better person.",
@@ -385,8 +385,6 @@ function app() {
             <p class="focus-heading">Carrying this into the next 10 weeks</p>
             <div class="focus-journey" aria-label="San Ramon to field experience journey">
               <span class="focus-step">San Ramon</span>
-              <span class="focus-arrow">-&gt;</span>
-              <span class="focus-step">Gratitude</span>
               <span class="focus-arrow">-&gt;</span>
               <span class="focus-step">Growth</span>
               <span class="focus-arrow">-&gt;</span>
