@@ -2,12 +2,13 @@ const navItems = [
   ["Dear San Ramon", "#home"],
   ["Moments", "#moments"],
   ["Learning", "#learning"],
+  ["Shout Out", "#shoutout"],
   ["People", "#people"],
   ["Classroom", "#classroom"],
   ["Carry Forward", "#forward"],
 ];
 
-const assetVersion = "20260527-people-phoebe-allen";
+const assetVersion = "20260529-special-shoutout";
 
 const funActivities = [
   {
@@ -133,6 +134,15 @@ const learningThemes = [
   },
 ];
 
+const hongKongTeam = {
+  name: "Hong Kong Team",
+  image: "images/hong-kong-team.jpg", // Replace this image with your Hong Kong Team photo.
+  takeaway:
+    "A supportive team can make learning, stretching, and growing feel less lonely.",
+  reflection:
+    "This group reminded me how much community matters when you are learning, stretching, and growing together.",
+};
+
 const people = [
   {
     name: "Jean Ooi",
@@ -213,14 +223,6 @@ const people = [
       "What made the experience even more meaningful was that the impact did not stop with me. After I told other SuccessFactors Solution Advisors in my APAC cohort that I would try a live demo, some of them decided to try their first live demo as well.",
       "During field experience, I want to actively look for more opportunities to practice live demos and continue improving as a SuccessFactors Solution Advisor. Joey showed me that when we choose to step up, we may also give others the courage to do the same.",
     ].join("\n\n"),
-  },
-  {
-    name: "Hong Kong Team",
-    image: "images/hong-kong-team.jpg", // Replace this image with your Hong Kong Team photo.
-    takeaway:
-      "A supportive team can make learning, stretching, and growing feel less lonely.",
-    reflection:
-      "This group reminded me how much community matters when you are learning, stretching, and growing together.",
   },
 ];
 
@@ -326,6 +328,22 @@ function app() {
             Advisory.
           </p>
           <div class="journey">${learningThemes.map(learningCard).join("")}</div>
+        `,
+      })}
+
+      ${section({
+        id: "shoutout",
+        tone: "yellow",
+        icon: "HK",
+        eyebrow: "Special gratitude note",
+        title: "Special Shout Out",
+        body: `
+          <p class="section-lede">
+            Some support deserves its own page in the journal. This is a small
+            thank-you to the team that made the trip feel warmer, easier, and
+            more meaningful.
+          </p>
+          <div class="people-grid">${shoutOutCard(hongKongTeam)}</div>
         `,
       })}
 
@@ -440,6 +458,28 @@ function learningCard(item, index) {
         ${body}
         <!-- Edit this text later with your personal learning takeaway. -->
       </div>
+    </article>
+  `;
+}
+
+function shoutOutCard(team) {
+  return `
+    <article class="person-card editorial-wrap-card special-shoutout-card">
+      <div class="person-copy">
+        <div class="person-left">
+          <div class="floating-photo">
+            <img src="${assetUrl(team.image)}" alt="${team.name} placeholder" />
+          </div>
+          <div class="person-takeaway">
+            <p class="person-takeaway-label">What this team showed me</p>
+            <p>${team.takeaway}</p>
+          </div>
+        </div>
+        <h3>${team.name}</h3>
+        <span>What this team meant to me</span>
+        <p>${team.reflection}</p>
+      </div>
+      <!-- Edit this special shout out later with your own team memory. -->
     </article>
   `;
 }
