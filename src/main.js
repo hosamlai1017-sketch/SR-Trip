@@ -8,7 +8,7 @@ const navItems = [
   ["Carry Forward", "#forward"],
 ];
 
-const assetVersion = "20260529-special-shoutout";
+const assetVersion = "20260529-shoutout-copy";
 
 const funActivities = [
   {
@@ -138,9 +138,12 @@ const hongKongTeam = {
   name: "Hong Kong Team",
   image: "images/hong-kong-team.jpg", // Replace this image with your Hong Kong Team photo.
   takeaway:
-    "A supportive team can make learning, stretching, and growing feel less lonely.",
-  reflection:
-    "This group reminded me how much community matters when you are learning, stretching, and growing together.",
+    "A good team does not just support you when things are easy. It makes the unfamiliar feel familiar, and the journey feel less lonely.",
+  reflection: [
+    "A big thank you to the HK team for making this journey feel warmer, easier, and more meaningful.",
+    "Being away from home can sometimes feel a little overwhelming, but having familiar faces around made a real difference. Thank you for the small check-ins, the encouragement, the laughs, and the support along the way.",
+    "This experience reminded me that growth feels much better when you are surrounded by people who are learning, trying, and moving forward together.",
+  ].join("\n\n"),
 };
 
 const people = [
@@ -477,7 +480,7 @@ function shoutOutCard(team) {
         </div>
         <h3>${team.name}</h3>
         <span>What this team meant to me</span>
-        <p>${team.reflection}</p>
+        ${team.reflection.split("\n\n").map((paragraph) => `<p>${paragraph}</p>`).join("")}
       </div>
       <!-- Edit this special shout out later with your own team memory. -->
     </article>
